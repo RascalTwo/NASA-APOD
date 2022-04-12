@@ -1,0 +1,65 @@
+body {
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+figure {
+	margin: 0;
+}
+
+figcaption {
+	font-size: 2rem;
+}
+
+fieldset {
+	width: max-content;
+	margin: 1rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+fieldset > * {
+	width: max-content;
+}
+
+input {
+	text-align: center;
+}
+
+#content {
+	max-width: 95vw;
+	margin: 1rem 0;
+}
+
+object#content {
+	width: 85vmin;
+	height: 85vmin;
+}
+
+p {
+	max-width: 75vmax;
+	margin: auto;
+}
+
+details[open] summary {
+	display: none;
+}
+
+summary {
+	margin: 1rem auto;
+}
+
+form {
+	user-select: none;
+}
+
+legend button {
+	all: unset
+}
+
+fieldset div button:first-of-type {
+	transform: rotate(180deg);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>NASA Picture of the Day</title>
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+
+	<body>
+		<form>
+			<details open>
+				<summary>Astronomy Picture of the Day</summary>
+				<fieldset>
+					<legend><button type="button">▼ Astronomy Picture of the Day</button></legend>
+
+					<div>
+						<button type="button" aria-label="Previous Day">➤</button>
+						<input type="date" />
+						<button type="button" aria-label="Next Day">➤</button>
+					</div>
+					<button type="button">Random</button>
+				</fieldset>
+			</details>
+		</form>
+		<figure>
+			<figcaption></figcaption>
+			<img id="content" />
+			<p></p>
+		</figure>
+		<script src="env.js"></script>
+		<script src="index.js"></script>
+	</body>
+
+</html>
